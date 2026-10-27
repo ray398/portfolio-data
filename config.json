@@ -1,0 +1,138 @@
+{
+  "profileImage": "https://avatars.githubusercontent.com/ray398",
+  "heroSubhead": "Hi, I'm Ray Maina. Full-stack engineer & native Android developer building high-performance web platforms (React, Node.js, PostgreSQL) and AI-powered mobile experiences (Kotlin, Jetpack Compose).",
+  
+  "about": {
+    "paragraph1": "I'm a full-stack engineer and native Android specialist. I bridge scalable backend infrastructure with fluid web applications and native Android apps integrated with Generative AI.",
+    "paragraph2": "My web stack centers on React, TypeScript, Node.js, and PostgreSQL/Supabase. On mobile, I build native Android applications using Kotlin, Jetpack Compose, and modern Clean Architecture.",
+    "pillars": [
+      {
+        "icon": "fa-solid fa-layer-group",
+        "title": "End-to-End",
+        "desc": "From database schemas and APIs to web & Android interfaces."
+      },
+      {
+        "icon": "fa-solid fa-brain",
+        "title": "Applied AI",
+        "desc": "Gemini multimodal API, streaming tokens & on-device models."
+      },
+      {
+        "icon": "fa-solid fa-shield-halved",
+        "title": "Clean Code",
+        "desc": "Strict TypeScript typing, Kotlin coroutines & offline-first reliability."
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "omnivision-ai",
+      "title": "OmniVision AI",
+      "tagline": "Real-time multimodal object analysis and vision assistant powered by Gemini 1.5.",
+      "category": "mobile",
+      "image": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&w=900&q=80",
+      "tags": ["Kotlin", "Jetpack Compose", "Gemini API", "CameraX", "Room DB"],
+      "demoUrl": "https://github.com/ray398",
+      "githubUrl": "https://github.com/ray398",
+      "overview": "Native Android vision assistant analyzing live camera feeds and providing real-time AI conversational answers.",
+      "challenge": "Streaming camera frames to Gemini 1.5 without frame drops in the preview or battery drain.",
+      "architecture": [
+        "CameraX ImageAnalysis pipeline with 2 FPS frame throttling.",
+        "MVVM Clean Architecture with Kotlin Coroutines and StateFlow.",
+        "Streaming response handling for instant token-by-token visual feedback."
+      ],
+      "metrics": [
+        { "label": "Camera FPS", "val": "60 FPS Fluid" },
+        { "label": "Token Latency", "val": "< 750ms Streaming" },
+        { "label": "Memory Usage", "val": "< 85 MB RAM" }
+      ]
+    },
+    {
+      "id": "pulsestack-saas",
+      "title": "PulseStack AI",
+      "tagline": "Collaborative SaaS knowledge base with automated AI summaries and semantic search.",
+      "category": "web",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+      "tags": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Supabase"],
+      "demoUrl": "https://github.com/ray398",
+      "githubUrl": "https://github.com/ray398",
+      "overview": "High-throughput collaborative workspace unifying Markdown notes, vector embeddings, and real-time multi-tab sync.",
+      "challenge": "Handling concurrent multi-user editing with zero synchronization collisions and sub-50ms query speeds.",
+      "architecture": [
+        "React frontend with strict TypeScript and optimistic UI state updates.",
+        "Modular Express.js backend with JWT auth and Row-Level Security (RLS).",
+        "Supabase PostgreSQL with pgvector for sub-millisecond semantic search."
+      ],
+      "metrics": [
+        { "label": "Sync Latency", "val": "< 35ms WebSockets" },
+        { "label": "Vector Search", "val": "< 50ms Index Scan" },
+        { "label": "Type Safety", "val": "100% Strict TypeScript" }
+      ]
+    },
+    {
+      "id": "nexusmetrics-engine",
+      "title": "NexusMetrics",
+      "tagline": "Real-time telemetry analytics platform ingesting high-throughput application events.",
+      "category": "web",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&q=80",
+      "tags": ["React", "TypeScript", "Supabase", "PostgreSQL", "HTML5 Canvas"],
+      "demoUrl": "https://github.com/ray398",
+      "githubUrl": "https://github.com/ray398",
+      "overview": "Performance-driven analytics dashboard ingesting telemetry events and rendering interactive 60fps graphs.",
+      "challenge": "Visualizing high-density time-series data without causing browser UI thread lag.",
+      "architecture": [
+        "Hardware-accelerated Canvas rendering with virtualized data downsampling.",
+        "PostgreSQL continuous aggregates and materialized view cron refreshes.",
+        "Event ingester with backpressure handling for traffic spikes."
+      ],
+      "metrics": [
+        { "label": "Throughput", "val": "10,000+ Events/sec" },
+        { "label": "Frame Rate", "val": "60 FPS Canvas" },
+        { "label": "Query Time", "val": "< 20ms Aggregates" }
+      ]
+    },
+    {
+      "id": "aurahealth-android",
+      "title": "AuraHealth",
+      "tagline": "Offline-first native Android wellness tracker with Google Health Connect sync.",
+      "category": "mobile",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=80",
+      "tags": ["Kotlin", "Jetpack Compose", "Health Connect", "WorkManager", "Room DB"],
+      "demoUrl": "https://github.com/ray398",
+      "githubUrl": "https://github.com/ray398",
+      "overview": "Privacy-first Android health monitoring app integrating Google Health Connect with offline-first local storage.",
+      "challenge": "Performing periodic background biometric syncs without battery drain or OEM task termination.",
+      "architecture": [
+        "Declarative Jetpack Compose UI following Material 3 guidelines.",
+        "WorkManager with constrained execution criteria (charging, network connected).",
+        "Encrypted local Room database with SQLCipher."
+      ],
+      "metrics": [
+        { "label": "Battery Impact", "val": "< 1.5% Daily" },
+        { "label": "Offline Mode", "val": "100% Core Features" },
+        { "label": "Crash-Free Rate", "val": "99.8% Production" }
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "period": "2024 — Present",
+      "role": "Full-Stack & Mobile AI Developer",
+      "company": "Client & Contract Engagements",
+      "desc": "Architecting production web apps and native Android AI applications."
+    },
+    {
+      "period": "2023 — 2024",
+      "role": "Full-Stack Software Engineer",
+      "company": "Web & Mobile Platforms",
+      "desc": "Engineered backend APIs with Node.js and Supabase, building real-time dashboards."
+    },
+    {
+      "period": "2022 — 2023",
+      "role": "Android Application Developer",
+      "company": "Mobile Systems",
+      "desc": "Built native Android apps with Kotlin, MVVM architecture, and Room database caching."
+    }
+  ]
+}
