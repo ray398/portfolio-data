@@ -46,50 +46,6 @@
         { "label": "Vector Search", "val": "< 50ms Index Scan" },
         { "label": "Type Safety", "val": "100% Strict TypeScript" }
       ]
-    },
-    {
-      "id": "pulsestack-saas",
-      "title": "PulseStack AI",
-      "tagline": "Collaborative SaaS knowledge base with automated AI summaries and semantic search.",
-      "category": "web",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
-      "tags": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Supabase"],
-      "demoUrl": "https://github.com/ray398",
-      "githubUrl": "https://github.com/ray398",
-      "overview": "High-throughput collaborative workspace unifying Markdown notes, vector embeddings, and real-time multi-tab sync.",
-      "challenge": "Handling concurrent multi-user editing with zero synchronization collisions and sub-50ms query speeds.",
-      "architecture": [
-        "React frontend with strict TypeScript and optimistic UI state updates.",
-        "Modular Express.js backend with JWT auth and Row-Level Security (RLS).",
-        "Supabase PostgreSQL with pgvector for sub-millisecond semantic search."
-      ],
-      "metrics": [
-        { "label": "Sync Latency", "val": "< 35ms WebSockets" },
-        { "label": "Vector Search", "val": "< 50ms Index Scan" },
-        { "label": "Type Safety", "val": "100% Strict TypeScript" }
-      ]
-    },
-    {
-      "id": "aurahealth-android",
-      "title": "AuraHealth",
-      "tagline": "Offline-first native Android wellness tracker with Google Health Connect sync.",
-      "category": "mobile",
-      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=80",
-      "tags": ["Kotlin", "Jetpack Compose", "Health Connect", "WorkManager", "Room DB"],
-      "demoUrl": "https://github.com/ray398",
-      "githubUrl": "https://github.com/ray398",
-      "overview": "Privacy-first Android health monitoring app integrating Google Health Connect with offline-first local storage.",
-      "challenge": "Performing periodic background biometric syncs without battery drain or OEM task termination.",
-      "architecture": [
-        "Declarative Jetpack Compose UI following Material 3 guidelines.",
-        "WorkManager with constrained execution criteria (charging, network connected).",
-        "Encrypted local Room database with SQLCipher."
-      ],
-      "metrics": [
-        { "label": "Battery Impact", "val": "< 1.5% Daily" },
-        { "label": "Offline Mode", "val": "100% Core Features" },
-        { "label": "Crash-Free Rate", "val": "99.8% Production" }
-      ]
     }
   ],
 
