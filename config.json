@@ -14,7 +14,7 @@
       {
         "icon": "fa-solid fa-brain",
         "title": "Applied AI",
-        "desc": "Gemini multimodal API, streaming tokens & on-device models."
+        "desc": "AI multimodal API, streaming tokens & on-device models."
       },
       {
         "icon": "fa-solid fa-shield-halved",
@@ -51,22 +51,22 @@
 
   "experience": [
     {
-      "period": "2024 — Present",
-      "role": "Full-Stack & Mobile AI Developer",
+      "period": "2025 — Present",
+      "role": "Full-Stack web, Mobile and AI Developer",
       "company": "Client & Contract Engagements",
       "desc": "Architecting production web apps and native Android AI applications."
     },
     {
-      "period": "2023 — 2024",
+      "period": "2024 — 2025",
       "role": "Full-Stack Software Engineer",
-      "company": "Web & Mobile Platforms",
+      "company": "Freelancer",
       "desc": "Engineered backend APIs with Node.js and Supabase, building real-time dashboards."
     },
     {
-      "period": "2022 — 2023",
+      "period": "2022 — 2024",
       "role": "Android Application Developer",
-      "company": "Mobile Systems",
-      "desc": "Built native Android apps with Kotlin, MVVM architecture, and Room database caching."
+      "company": "Freelancer",
+      "desc": "Built native Android apps with Java, XML, Firebase and SQLite."
     }
   ]
 }
