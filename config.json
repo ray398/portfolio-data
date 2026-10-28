@@ -1,6 +1,16 @@
 {
   "profileImage": "https://avatars.githubusercontent.com/ray398",
   "heroSubhead": "Hi, I'm Ray Maina. Full-stack engineer & native Android developer building high-performance web platforms (React, Node.js, PostgreSQL) and AI-powered mobile experiences (Kotlin, Jetpack Compose).",
+
+  "coreStack": [
+    "React",
+    "TypeScript",
+    "Kotlin",
+    "Compose",
+    "Node.js",
+    "Postgres",
+    "Gemini AI"
+  ],
   
   "about": {
     "paragraph1": "I'm a full-stack engineer and native Android specialist. I bridge scalable backend infrastructure with fluid web applications and native Android apps integrated with Generative AI.",
