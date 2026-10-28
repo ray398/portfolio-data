@@ -30,7 +30,7 @@
       "title": "DeskFlow — Enterprise IT Help Desk",
       "tagline": "An IT help desk application designed to help organisations manage internal IT support requests, track ticket progress, and coordinate support work across different user roles.",
       "category": "web",
-      "image": "screenshots/Dashboard.PNG",
+      "image": "https://github.com/ray398/DeskFlow-Enterprise-IT-Help-Desk-System/blob/main/screenshots/Dashboard.PNG",
       "tags": ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Supabase"],
       "demoUrl": "https://github.com/ray398/DeskFlow-Enterprise-IT-Help-Desk-System/blob/main/README.md",
       "githubUrl": "https://github.com/ray398",
